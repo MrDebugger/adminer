@@ -1,7 +1,7 @@
 import requests
 from urllib.parse import urlparse
 import time
-file='url.txt'
+file='list.txt'
 urls=[url for url in open(file).read().splitlines() if url]
 
 admins=[admin for admin in open("admin.txt").read().splitlines() if admin]
